@@ -1,0 +1,41 @@
+<!-- This is up to 30:59 in the video, DIVs Ids and classes -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>BUILD IN CSS</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header></header>
+    <!-- placing an image inside the div below -->
+    <div class="about-me">
+      <h2 id="name">Brady James</h2>
+
+      <!-- because h2 tags and image tags are not in line, they display as block, they actually stack over each other and dont fit anymore
+this will later be fixed with flexbox -->
+
+      <!-- img tags are self-closing, they dont need 2 tags, it also needs two attributes, src and alt text. -->
+      <!-- here you can either choose to use the img tag to style up, however im not confident this will be the only image so we'll use a CLASS instead -->
+      <!-- alternatively, you can add ID's to our elements and grab them in our css thanks to the # , ID's are unique, 
+      each element can have only one ID and each page cna only have one element with that ID  -->
+      <!-- classes are not unique, you can use the same class on multiple elements, can also use multiple classes on an element -->
+      <!-- elements can have both a CLASS and an ID  -->
+      <img class="avatar" src="images/Grosser_Panda.JPG" alt="Panda" />
+    </div>
+    <!-- this is an alternative block element called a section -->
+    <section></section>
+    <!-- because this is a portfolio page for myself, i want my footer to contain some information, and i want this information in a list -->
+    <footer>
+      <!-- table of content, ordered list = ol, unordered list = ul, the start function is unecessary here but good if you want to start on a higher number -->
+      <!-- <ol start="1"> -->
+      <ul>
+        <!-- other types are like list-style-type: square, disc, circle -->
+        <!-- add list items -->
+        <li><a href="">About Me</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="https://github.com/Flaysg">GitHub</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
